@@ -88,3 +88,30 @@ AMDGT/
 ├── train_DDA.py           # Training script
 └── README.md
 </pre>
+
+## Usage
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/AMDGT.git
+cd AMDGT
+```
+
+### 2. Install dependencies
+
+```bash
+pip install torch dgl numpy networkx scikit-learn
+```
+
+### 3. Run training (C-dataset)
+
+```bash
+python train_DDA.py --dataset C-dataset
+```
+
+### 4. Run training (F-dataset)
+
+```bash
+python train_DDA.py --dataset F-dataset
+```
